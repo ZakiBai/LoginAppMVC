@@ -18,6 +18,7 @@
 		35C2C4F129F147DA003891FD /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35C2C4F029F147DA003891FD /* WelcomeViewController.swift */; };
 		35C2C4F329F14817003891FD /* PersonInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35C2C4F229F14817003891FD /* PersonInfoViewController.swift */; };
 		35C2C4F529F14829003891FD /* PersonDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35C2C4F429F14829003891FD /* PersonDetailViewController.swift */; };
+		35C2C4FA29F16C86003891FD /* Extension+UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35C2C4F929F16C86003891FD /* Extension+UIView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		35C2C4F029F147DA003891FD /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 		35C2C4F229F14817003891FD /* PersonInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonInfoViewController.swift; sourceTree = "<group>"; };
 		35C2C4F429F14829003891FD /* PersonDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonDetailViewController.swift; sourceTree = "<group>"; };
+		35C2C4F929F16C86003891FD /* Extension+UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+UIView.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,7 +72,8 @@
 				35C2C4EA29F1422B003891FD /* Models */,
 				35C2C4EB29F14235003891FD /* ViewControllers */,
 				35C2C4EC29F14243003891FD /* StoryBoards */,
-				35C2C4DD29F12401003891FD /* Assets.xcassets */,
+				35C2C4FB29F16CB3003891FD /* Extensions */,
+				35C2C4F629F16C0D003891FD /* Resources */,
 			);
 			path = LoginAppMVC;
 			sourceTree = "<group>";
@@ -112,6 +115,22 @@
 				35C2C4E229F12401003891FD /* Info.plist */,
 			);
 			path = App;
+			sourceTree = "<group>";
+		};
+		35C2C4F629F16C0D003891FD /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				35C2C4DD29F12401003891FD /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		35C2C4FB29F16CB3003891FD /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				35C2C4F929F16C86003891FD /* Extension+UIView.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,6 +212,7 @@
 				35C2C4EF29F147C1003891FD /* TabBarViewController.swift in Sources */,
 				35C2C4F329F14817003891FD /* PersonInfoViewController.swift in Sources */,
 				35C2C4D729F123FF003891FD /* SceneDelegate.swift in Sources */,
+				35C2C4FA29F16C86003891FD /* Extension+UIView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
