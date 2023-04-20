@@ -18,7 +18,7 @@ struct Person {
             username: "Zaki",
             password: "swift",
             guest: "Alexey",
-            photo: "zaki",
+            photo: "zakimen",
             user: User.getUser()
         )
     }

@@ -11,7 +11,7 @@ class PersonInfoViewController: UIViewController {
     
     @IBOutlet var profileImage: UIImageView! {
         didSet {
-            profileImage.layer.cornerRadius = profileImage.frame.height / 2
+            profileImage.layer.cornerRadius = profileImage.frame.size.width / 2
         }
     }
     
@@ -32,6 +32,7 @@ class PersonInfoViewController: UIViewController {
         navigationItem.title = "\(person.user.fullName)"
         
         profileImage.image = UIImage(named: person.photo)
+        profileImage.clipsToBounds = true
 
     }
     
